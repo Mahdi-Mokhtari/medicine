@@ -1,0 +1,163 @@
+@font-face {
+    font-family: IRANSansX1;
+    font-style: normal;
+    font-weight: 800;
+    src: url("././IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff/IRANSansX-ExtraBold.woff")
+        format("woff"),
+      url("./IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff2/IRANSansX-ExtraBold.woff2")
+        format("woff2");
+  }
+  
+  @font-face {
+    font-family: IRANSansX2;
+    font-style: normal;
+    font-weight: 600;
+    src: url("././IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff/IRANSansX-DemiBold.woff")
+        format("woff"),
+      url("././IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff2/IRANSansX-DemiBold.woff2")
+        format("woff2");
+  }
+  
+  @font-face {
+    font-family: IRANSansX3;
+    font-style: normal;
+    font-weight: 300;
+    src: url("././IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff/IRANSansX-Light.woff")
+      format("woff");
+  }
+  
+  @font-face {
+    font-family: IRANSansX4;
+    font-style: normal;
+    font-weight: 500;
+    src: url("./IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff/IRANSansX-Medium.woff")
+        format("woff"),
+      url("./IranSansX(Pro)-@Fontilo/Webfonts/fonts/woff2/IRANSansX-Medium.woff2")
+        format("woff2");
+  }
+
+
+
+
+
+*{direction: rtl;}
+.NameOfHead{
+    text-align: center;
+    font-family:"IRANSansX1";
+}
+
+body{
+    font-family: Tahoma;
+    color: #393232;
+    letter-spacing: 1px;
+    background-color: #f8edd8;
+}
+.NameOfHead{
+    color: #105652;
+}
+.description{
+    position: relative;
+    right: 25px;
+    color: #105652;
+    font-family: "IRANSansX1";
+    font-size: large;
+    font-weight: bolder;
+}
+
+.delete{
+    float: left;
+    background: #105652;
+    position: relative;
+    left: 90px;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top: -12px;
+}
+.delete:hover{
+    background: #105652;
+}
+
+.name{
+    float: right;
+    position: relative;
+    right: 15px;
+    top: -7px;
+    font-weight: 80px;
+}
+
+
+
+#container{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px #393232;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    background-color: #dfd8ca;
+}
+
+#hide{
+    position: relative;
+    top: 12px;
+    right: 50px;
+    font-family: "IRANSansX2";
+}
+#add-medicine .button{
+    border: 1px solid #105652;
+    background: #105652;
+    padding: 10px 20px;
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    width: 59px;
+    margin: 20px 0;
+    border-left: 0;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+
+#add-medicine  input{
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    
+}
+
+
+#add-medicine li{
+    padding: 20px;
+    border-right: 5px solid #ddd;
+    margin: 20px 10px;
+    position: relative;
+    right: 13px;
+}
+
+#add-medicine li:hover{
+    border-color: #105652;
+}
+#add-medicine  ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    height: 19.200;
+}
+.checkbox-style {
+
+    margin-right: 30px; /* فاصله از دور */
+    color: #105652;
+}
